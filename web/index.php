@@ -12,7 +12,7 @@ $app->get('/', function () use ($app) {
 });
 
 $app->get('/hello', function () use ($app) {
-    echo "howdy!";
+    echo "Nice to see you";
 });
 
 $app->run();
